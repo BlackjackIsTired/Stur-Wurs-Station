@@ -1,4 +1,4 @@
-# Paradise
+# Stur Wurs
 [![Build Status](https://travis-ci.org/ParadiseSS13/Paradise.svg?branch=master)](https://travis-ci.org/ParadiseSS13/Paradise)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/paradisess13/paradise.svg)](http://isitmaintained.com/project/paradisess13/paradise "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/paradisess13/paradise.svg)](http://isitmaintained.com/project/paradisess13/paradise "Percentage of issues still open")
@@ -14,8 +14,6 @@
 
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
-
-Click [here](https://github.com/ParadiseSS13/Paradise/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
 
 The more complicated and easier to update method is using git.  
 You'll need to download git or some client from [here](http://git-scm.com/).  
@@ -116,8 +114,8 @@ along with the bot/relay script itself.
 
 ### LICENSE
 
-Paradise is licensed under the GNU Affero General Public License version 3.
-As of 5th January 2015 any new contributions are licensed under the AGPL as well,
+Stur Wurs is licensed under the GNU Affero General Public License version 3.
+As of 3rd December 2018 any new contributions are licensed under the AGPL as well,
 if you wish to submit code under the GPL v3 then commits and files must be marked as such
 in comments. If you wish to use our code in a closed source manner you may use anything
 before commit 445615b8439bf606ff204a42c8e7b6b69d983255,
