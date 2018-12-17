@@ -1,5 +1,5 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
-/datum/job/captain
+/datum/job/Captain
 	title = "Captain"
 	flag = CAPTAIN
 	department_flag = ENGSEC
@@ -26,9 +26,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 	captain_announcement.Announce("All hands, Captain [H.real_name] on deck!")
 	callHook("captain_spawned", list("captain" = H))
 
-/datum/outfit/job/captain
+/datum/outfit/job/Captain
 	name = "Captain"
-	jobtype = /datum/job/captain
+	jobtype = /datum/job/Captain
 	uniform = /obj/item/clothing/under/rank/captain
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace
 	shoes = /obj/item/clothing/shoes/brown

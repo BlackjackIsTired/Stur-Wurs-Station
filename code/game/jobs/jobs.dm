@@ -1,11 +1,10 @@
-
 var/const/ENGSEC			=(1<<0)
 
 var/const/CAPTAIN			=(1<<0)
-var/const/HOS				=(1<<1)
+var/const/LIEUTENANT				=(1<<1)
 var/const/WARDEN			=(1<<2)
 var/const/DETECTIVE			=(1<<3)
-var/const/OFFICER			=(1<<4)
+var/const/STORMTROOPER			=(1<<4)
 var/const/CHIEF				=(1<<5)
 var/const/ENGINEER			=(1<<6)
 var/const/ATMOSTECH			=(1<<7)
@@ -63,7 +62,7 @@ var/list/assistant_occupations = list(
 var/list/command_positions = list(
 	"Captain",
 	"Head of Personnel",
-	"Head of Security",
+	"Lieutenant",
 	"Chief Engineer",
 	"Research Director",
 	"Chief Medical Officer",
@@ -133,7 +132,7 @@ var/list/security_positions = list(
 	"Head of Security",
 	"Warden",
 	"Detective",
-	"Security Officer",
+	"Stormtrooper",
 	"Brig Physician",
 	"Security Pod Pilot",
 	"Magistrate"

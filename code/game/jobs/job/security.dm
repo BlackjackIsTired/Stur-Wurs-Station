@@ -1,6 +1,6 @@
-/datum/job/hos
-	title = "Head of Security"
-	flag = HOS
+/datum/job/Lieutenant
+	title = "Lieutenant"
+	flag = LIEUTENANT
 	department_flag = ENGSEC
 	total_positions = 1
 	spawn_positions = 1
@@ -21,11 +21,11 @@
 	exp_requirements = 600
 	exp_type = EXP_TYPE_CREW
 	disabilities_allowed = 0
-	outfit = /datum/outfit/job/hos
+	outfit = /datum/outfit/job/Lieutenant
 
-/datum/outfit/job/hos
-	name = "Head of Security"
-	jobtype = /datum/job/hos
+/datum/outfit/job/Lieutenant
+	name = "Lieutenant"
+	jobtype = /datum/job/Lieutenant
 
 	uniform = /obj/item/clothing/under/rank/head_of_security
 	suit = /obj/item/clothing/suit/armor/hos
@@ -153,26 +153,26 @@
 	H.mutations += SOBER
 	H.check_mutations = 1
 
-/datum/job/officer
-	title = "Security Officer"
-	flag = OFFICER
+/datum/job/Stormtrooper
+	title = "Stormtrooper"
+	flag = STORMTROOPER
 	department_flag = ENGSEC
 	total_positions = 7
 	spawn_positions = 7
 	is_security = 1
-	supervisors = "the head of security"
-	department_head = list("Head of Security")
+	supervisors = "Lieutenant"
+	department_head = list("Lieutenant")
 	selection_color = "#ffeeee"
 	access = list(access_security, access_sec_doors, access_brig, access_court, access_maint_tunnels, access_morgue, access_weapons)
 	minimal_access = list(access_security, access_sec_doors, access_brig, access_court, access_maint_tunnels, access_weapons)
 	minimal_player_age = 14
 	exp_requirements = 300
 	exp_type = EXP_TYPE_CREW
-	outfit = /datum/outfit/job/officer
+	outfit = /datum/outfit/job/Stormtrooper
 
-/datum/outfit/job/officer
-	name = "Security Officer"
-	jobtype = /datum/job/officer
+/datum/outfit/job/Stormtrooper
+	name = "Stormtrooper"
+	jobtype = /datum/job/Stormtrooper
 	uniform = /obj/item/clothing/under/rank/security
 	suit = /obj/item/clothing/suit/armor/vest/security
 	gloves = /obj/item/clothing/gloves/color/black

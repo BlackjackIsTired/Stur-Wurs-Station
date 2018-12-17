@@ -733,7 +733,7 @@
 									found_record = 1
 									if(R.fields["criminal"] == "*Execute*")
 										to_chat(usr, "<span class='warning'>Unable to modify the sec status of a person with an active Execution order. Use a security computer instead.</span>")
-									else 
+									else
 										var/rank
 										if(ishuman(usr))
 											var/mob/living/carbon/human/U = usr
