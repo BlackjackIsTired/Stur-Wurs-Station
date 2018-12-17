@@ -2251,6 +2251,8 @@
 #include "code\modules\spacepods\lock_buster.dm"
 #include "code\modules\spacepods\parts.dm"
 #include "code\modules\spacepods\spacepod.dm"
+#include "code\modules\starwars\items\armors\imperial.dm"
+#include "code\modules\starwars\items\uniforms\imperialuniforms.dm"
 #include "code\modules\station_goals\bsa.dm"
 #include "code\modules\station_goals\dna_vault.dm"
 #include "code\modules\station_goals\shield.dm"

@@ -173,11 +173,11 @@
 /datum/outfit/job/Stormtrooper
 	name = "Stormtrooper"
 	jobtype = /datum/job/Stormtrooper
-	uniform = /obj/item/clothing/under/rank/security
-	suit = /obj/item/clothing/suit/armor/vest/security
+	uniform = /obj/item/clothing/under/stormtrooper
+	suit = /obj/item/clothing/suit/armor/stormtrooper
 	gloves = /obj/item/clothing/gloves/color/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	head = /obj/item/clothing/head/helmet
+	head = /obj/item/clothing/head/stormtrooperhelmet
 	l_ear = /obj/item/radio/headset/headset_sec/alt
 	id = /obj/item/card/id/security
 	l_pocket = /obj/item/flash
